@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>홍성삼 — 자기소개</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    (function () {
+      var theme = localStorage.getItem("theme") || "light";
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#resume-detail">상세 이력서로 바로가기</a>
+
+  <button type="button" id="theme-toggle" class="theme-toggle" aria-label="테마 전환">
+    다크 모드
+  </button>
+
+  <section class="scroll-stage" aria-label="2.5D 명함 이력서">
+    <div class="sticky-scene">
+      <p class="scroll-hint">스크롤하여 명함을 뒤집어 보세요</p>
+
+      <article class="business-card" aria-label="홍성삼 교수 지원 명함">
+        <div class="card-face card-front">
+          <div class="card-mark">Police Administration</div>
+          <div class="card-front-body">
+            <p class="eyebrow">경찰행정학과 교수 지원</p>
+            <h1>홍성삼</h1>
+            <p class="name-en">Hong Seong Sam</p>
+            <p class="front-summary">
+              경찰 현장·조직 운영 경험과 행정학 박사 연구를 바탕으로
+              이론과 실무를 연결합니다.
+            </p>
+          </div>
+          <ul class="card-keywords" aria-label="핵심 역량">
+            <li>경찰행정</li>
+            <li>범죄수사</li>
+            <li>AI 행정</li>
+            <li>자치경찰</li>
+            <li>국가안보</li>
+            <li>OSINT</li>
+          </ul>
+        </div>
+
+        <div class="card-face card-back">
+          <div class="back-header">
+            <p class="eyebrow">Application Profile</p>
+            <h2>이론과 현장을 잇는 경찰행정 교육</h2>
+            <p>
+              치안감 현장 경험, 행정학 박사 연구, 경찰 교육기관 운영 경험을 바탕으로
+              경찰행정학과의 연구·교육·사회 기여를 확장합니다.
+            </p>
+          </div>
+
+          <div class="back-grid">
+            <section>
+              <h3>연구</h3>
+              <p>AI 범죄 대응, 자치경찰, 국가안보, 공개정보 분석</p>
+            </section>
+            <section>
+              <h3>교육</h3>
+              <p>경찰행정·범죄수사·경찰법 중심의 사례 기반 수업</p>
+            </section>
+            <section>
+              <h3>실무</h3>
+              <p>경찰서·경찰청·중앙경찰학교·인사혁신처 경험</p>
+            </section>
+            <section>
+              <h3>성과</h3>
+              <p>논문 13편, 저서 9권, 실무형 교재 개발</p>
+            </section>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <header>
+    <div class="profile-header">
+      <div class="profile-photo">
+        <img src="images/profile.jpg" alt="홍성삼 교수 사진" width="160" height="200">
+      </div>
+      <div class="profile-intro">
+        <h1>홍성삼 <small>(洪性三)</small> <small>(<a href="https://namu.wiki/w/%ED%99%8D%EC%84%B1%EC%82%BC">출처: 나무위키</a>)</small></h1>
+        <p class="tagline">경찰행정·범죄수사·국가안보·AI 행정을 연구합니다.</p>
+        <ul class="keyword-badges" aria-label="연구 키워드">
+          <li>경찰행정</li>
+          <li>범죄수사</li>
+          <li>국가안보</li>
+          <li>AI 행정</li>
+          <li>자치경찰</li>
+          <li>공개정보(OSINT)</li>
+          <li>산업보안</li>
+        </ul>
+        <p>홍성삼 교수 Hong Seong Sam <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small></p>
+        <p>가천대학교 법과대학 경찰행정학과 · 교수 · 행정학 <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small></p>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <h2>목차</h2>
+    <ul>
+      <li><a href="#about">소개</a></li>
+      <li><a href="#profile">인적 사항</a></li>
+      <li><a href="#contact">연락처</a></li>
+      <li><a href="#education">학력</a></li>
+      <li><a href="#career">경력</a></li>
+      <li><a href="#papers">논문 실적</a></li>
+      <li><a href="#books">저서 실적</a></li>
+      <li><a href="#reference">참고 자료</a></li>
+    </ul>
+  </nav>
+
+  <hr>
+
+  <main id="resume-detail">
+
+    <section id="about">
+      <h2>소개</h2>
+      <p>
+        1963년 충청남도 공주시에서 태어났다. 경찰대학 3기를 졸업해 경위로 임관한 뒤
+        재임 중 제33회 행정고시에 합격하여 경정으로 승진하였고, 이후 경정부터 치안감까지 올랐다.
+        <small>(<a href="https://namu.wiki/w/%ED%99%8D%EC%84%B1%EC%82%BC">출처: 나무위키</a>)</small>
+      </p>
+      <p>
+        전북특별자치도경찰청장 등 주요 경찰 보직을 역임한 뒤 현직을 마치고,
+        인사혁신처 소청심사위원회 상임위원을 거쳐 현재 가천대학교 경찰행정학과 교수로 재임 중이다.
+        <small>(<a href="https://namu.wiki/w/%ED%99%8D%EC%84%B1%EC%82%BC">출처: 나무위키</a>)</small>
+      </p>
+      <p>
+        연구 분야는 경찰행정, 범죄수사, 국가안보, 인공지능과 행정 등이며,
+        국내외 정책 비교와 실무 연구를 병행하고 있다.
+        <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+      </p>
+    </section>
+
+    <section id="profile">
+      <h2>인적 사항</h2>
+      <dl>
+        <dt>이름</dt>
+        <dd>
+          홍성삼 (洪性三) / Hong Seong Sam
+          <small>(<a href="https://namu.wiki/w/%ED%99%8D%EC%84%B1%EC%82%BC">출처: 나무위키</a>,
+          <a href="https://www.gachon.ac.kr/security/5598/subview.do">가천대</a>)</small>
+        </dd>
+        <dt>출생</dt>
+        <dd>
+          1963년 8월 30일, 충청남도 공주시
+          <small>(<a href="https://namu.wiki/w/%ED%99%8D%EC%84%B1%EC%82%BC">출처: 나무위키</a>)</small>
+        </dd>
+        <dt>직책</dt>
+        <dd>
+          교수
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </dd>
+        <dt>소속</dt>
+        <dd>
+          가천대학교 법과대학 경찰행정학과
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </dd>
+        <dt>학위·전공</dt>
+        <dd>
+          행정학
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </dd>
+        <dt>위치</dt>
+        <dd>
+          비전타워 609호
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </dd>
+      </dl>
+    </section>
+
+    <section id="contact">
+      <h2>연락처</h2>
+      <address>
+        전화: <a href="tel:031-750-8811">031-750-8811</a>
+        <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small><br>
+        이메일: <a href="mailto:hnss1991@gachon.ac.kr">hnss1991@gachon.ac.kr</a>
+        <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+      </address>
+    </section>
+
+    <section id="education">
+      <h2>학력</h2>
+      <ol>
+        <li>
+          공주대학교 사범대학 부설고등학교 (25회, 졸업)
+          <small>(<a href="https://namu.wiki/w/%ED%99%8D%EC%84%B1%EC%82%BC">출처: 나무위키</a>)</small>
+        </li>
+        <li>
+          경찰대학 행정학 (학사)
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+        <li>
+          서울대학교 정책학 행정학 (석사)
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+        <li>
+          George Washington University Public Administration 행정학 (석사)
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+        <li>
+          서울대학교 행정학 행정학 (박사)
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ol>
+    </section>
+
+    <section id="career">
+      <h2>경력</h2>
+
+      <h3>경력 타임라인</h3>
+      <ol class="timeline">
+        <li class="timeline-item">
+          <span class="timeline-phase">경찰 임관</span>
+          <p>경찰대학 3기 졸업 · 경위 임관</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">승진</span>
+          <p>제33회 행정고시 합격 · 경정 승진</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">총경</span>
+          <p>전북지방경찰청 경비교통과장</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">총경</span>
+          <p>공주경찰서장</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">총경</span>
+          <p>경찰청 교육과장</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">총경</span>
+          <p>서울마포경찰서장</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">총경</span>
+          <p>서울특별시경찰청 교통관리과장</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">경무관</span>
+          <p>대전광역시경찰청 차장</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">경무관</span>
+          <p>경찰대학 교수부장</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">치안감</span>
+          <p>중앙경찰학교장 (제34대)</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">치안감</span>
+          <p>충청북도경찰청장 (제27대)</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">치안감</span>
+          <p>경찰청 외사국장</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">치안감</span>
+          <p>전북특별자치도경찰청장 (제27대)</p>
+        </li>
+        <li class="timeline-item">
+          <span class="timeline-phase">은퇴 후</span>
+          <p>인사혁신처 소청심사위원회 상임위원</p>
+        </li>
+        <li class="timeline-item timeline-item--current">
+          <span class="timeline-phase">현재</span>
+          <p>가천대학교 경찰행정학과 교수</p>
+        </li>
+      </ol>
+      <p>
+        <small>(<a href="https://namu.wiki/w/%ED%99%8D%EC%84%B1%EC%82%BC">출처: 나무위키</a>)</small>
+      </p>
+
+      <h3>생애 요약</h3>
+      <p>
+        총경 시절에는 전북지방경찰청 경비교통과장, 충남 공주경찰서장, 경찰청 교육과장,
+        서울마포경찰서장, 서울특별시경찰청 교통관리과장을 역임하였다.
+        경무관으로 승진하여 대전광역시경찰청 차장, 경찰대학 교수부장을 거쳐
+        치안감으로 승진하였으며, 중앙경찰학교장, 충청북도경찰청장, 경찰청 외사국장,
+        전북지방경찰청장을 역임하였다.
+        <small>(<a href="https://namu.wiki/w/%ED%99%8D%EC%84%B1%EC%82%BC">출처: 나무위키</a>)</small>
+      </p>
+    </section>
+
+    <section id="papers">
+      <h2>논문 실적</h2>
+
+      <h3>2024</h3>
+      <ul>
+        <li>
+          한국·미국·프랑스의 방산기술 보호 조직체계 연구 — [한국국가안보·국민안전학회지]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+
+      <h3>2023</h3>
+      <ul>
+        <li>
+          ChatGPT 이용 범죄 대응방안 연구 — 유로폴 및 인터폴의 ChatGPT 사용 권고사항 시사점을 중심으로 — [가천법학]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+
+      <h3>2022</h3>
+      <ul>
+        <li>
+          한국과 국제실종아동센터(ICMEC)의 실종아동찾기 비교 연구 — [한국경찰학회보]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+        <li>
+          산업스파이 판례분석 및 영업비밀 보호방안 연구 — [한국경찰연구]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+
+      <h3>2021</h3>
+      <ul>
+        <li>
+          자치경찰 법제도의 문제점 및 시사점 연구 — [가천법학]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+        <li>
+          초등학생의 공격성에 영향을 미치는 요인에 관한 연구 — [한국경찰연구]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+
+      <h3>2020</h3>
+      <ul>
+        <li>
+          소년법 폐지론 문제점과 대안 연구 — [한국경찰학회보]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+        <li>
+          청소년비행 요인간 관계분석 및 시사점 연구 — 중학교 학생 비행을 중심으로 — [경찰학논총]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+
+      <h3>2019</h3>
+      <ul>
+        <li>
+          피싱 사기범죄에 대한 인터폴 및 국가별 대응정책 비교연구 — [경찰학논총]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+        <li>
+          미국 영업비밀방어법(DTSA) 배경 및 시사점 연구 — [가천법학]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+
+      <h3>2018</h3>
+      <ul>
+        <li>
+          공직자의 음주운전 억제 실패 원인과 대책 연구 — [경찰학논총]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+    </section>
+
+    <section id="books">
+      <h2>저서 실적</h2>
+
+      <h3>2025</h3>
+      <ul>
+        <li>
+          경찰공무원 채용시험 면접 대비 교재 : 경찰행정학과 강의 발표면접 사례 개발/AI 활용 — [좋은땅]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+        <li>
+          AI 활용 경찰관 직무집행법 해설 — [도서출판 좋은땅]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+
+      <h3>2024</h3>
+      <ul>
+        <li>
+          인공지능(AI)과 행정관리 — [좋은땅]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+        <li>
+          국가안보를 위한 산업보안 관리 — [좋은땅]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+
+      <h3>2023</h3>
+      <ul>
+        <li>
+          범죄수사 기초 — [윤성사(도)]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+
+      <h3>2022</h3>
+      <ul>
+        <li>
+          실종아동등 찾기(한국어) — [21세기사]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+
+      <h3>2021</h3>
+      <ul>
+        <li>
+          경찰 생활안전 실무 — [윤성사]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+
+      <h3>2020</h3>
+      <ul>
+        <li>
+          공개정보 활용 및 분석 — [박영사]
+          <small>(<a href="https://www.gachon.ac.kr/security/5598/subview.do">출처: 가천대</a>)</small>
+        </li>
+      </ul>
+    </section>
+
+    <section id="reference">
+      <h2>참고 자료</h2>
+      <ul>
+        <li><a href="https://namu.wiki/w/%ED%99%8D%EC%84%B1%EC%82%BC">나무위키 「홍성삼」</a> — 소개, 출생, 경력 등</li>
+        <li><a href="https://www.gachon.ac.kr/security/5598/subview.do">가천대학교 경찰행정학과 교수진 소개</a> — 연락처, 학력, 논문·저서 실적 등</li>
+        <li><a href="introduction.md">경찰행정학과 교수 지원 자기소개서</a> — 지원서용 초안</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <hr>
+
+  <footer>
+    <p><small>© 2026 홍성삼.</small></p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
